@@ -6,4 +6,6 @@ use soroban_sdk::contracterror;
 pub enum Error {
     AdminTokenConflict = 0,
     AdminNotFound = 1,
+    UserNotFound = 2,
+    
 }

@@ -7,6 +7,5 @@ pub enum DataKey {
     Admin,
     Token,
     ContractBalance,
-    User(Address),
-    UserCoins(Address, i128)
+    User(Address)
 }
